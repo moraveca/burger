@@ -1,0 +1,26 @@
+body {
+    font-family: 'Cherry Cream Soda', cursive;
+    background-image: url("../img/flying_burger.png");
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+.container {
+    background-color: white;
+}
+
+#header {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #8bb9d7;
+}
+
+#devour {
+    background-color: #d48225;
+}
+
+hr {
+    background-color: #e9bf2a
+}
