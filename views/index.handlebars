@@ -14,11 +14,11 @@
 
             <ul>
                 {{#each burgers}}
-                {{#unless devoured}}
+                {{#unless this.devoured}}
                 <li>
                     <p><span class="label">{{this.id}}:</span> {{this.burger_name}}</p>
                     {{!-- <p><span class="label">ID:</span> {{this.id}}</p> --}}
-                    <button type="button" class="btn" data-id="{{this.id}}" id="devour">Devour it!</button>
+                    <button type="button" class="btn devour" data-id="{{this.id}}">Devour it!</button>
                 </li>
                 {{/unless}}
                 {{/each}}

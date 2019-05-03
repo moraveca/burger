@@ -20,11 +20,6 @@ var burger = {
         cb(res);
       });
     },
-    // delete: function(id, cb) {
-    //   orm.delete("cats", id, function(res) {
-    //     cb(res);
-    //   })
-    // }
   };
 
 

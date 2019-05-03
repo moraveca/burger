@@ -1,6 +1,9 @@
 $(function () {
 
-    $("#devour").on("click", function (event) {
+    $(".devour").on("click", function (event) {
+
+        event.preventDefault();
+
         var id = $(this).data("id");
         console.log("id: ", id);
 
